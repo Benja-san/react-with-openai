@@ -1,0 +1,35 @@
+.card {
+  background: #181b23;
+  padding: 2rem;
+  border-radius: 50px;
+  background: linear-gradient(315deg, #0f1117, rgba(100, 108, 255, 0.6));
+  box-shadow: 4px 4px 8px inset rgba(255, 255, 255, 0.4), 4px 4px 8px #2b2727;
+  text-align: center;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    box-shadow: rgba(119, 119, 135, 0.25) 0px 30px 50px -12px inset,
+      rgba(97, 94, 94, 0.3) 0px 18px 26px -18px inset;
+    transition: all 0.3s ease-in-out;
+  }
+  img {
+    height: 300px;
+    object-fit: contain;
+    margin: 2rem auto;
+    border-radius: 25px;
+  }
+  h2,
+  p {
+    text-align: center;
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+  p {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+}

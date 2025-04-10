@@ -1,0 +1,23 @@
+.button {
+  width: 45px;
+  height: 45px;
+  background-color: transparent;
+  padding: 0;
+  position: relative;
+  svg {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 7.5px auto;
+    path {
+      transition: fill 0.25s;
+    }
+  }
+  &:hover {
+    svg {
+      path {
+        fill: #646cff;
+      }
+    }
+  }
+}
